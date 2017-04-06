@@ -547,21 +547,22 @@ div[class^='figure'] {
     margin: 0 auto;
   }
   .heading-small {
-    font-size: 24px;
+    font-size: 22px;
   }
   .heading-large {
     font-size: 43px;
+    margin-bottom: 110px;
   }
   .tags {
     font-size: 16px;
     width: 290px;
   }
   .group-1 {
-    height: 250px;
+    height: 280px;
     padding-top: 0;
   }
   .background-picture {
-    margin-top: 90px;
+    margin-top: 10px;
   }
   .group-2 {
     margin-bottom: 30px !important;
@@ -667,9 +668,17 @@ div[class^='figure'] {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   iframe {
     max-height: 410px;
   }
+  .group-1 {
+    height: 240px;
+  }
+  .heading-large {
+    font-size: 43px;
+    margin-bottom: 65px;
+  }
+
 }
 /*END MEDIA QUERIES*/
