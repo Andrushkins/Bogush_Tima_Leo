@@ -173,7 +173,9 @@
 
       window.onresize = function() {
         background_picture_height = document.querySelector('.background-picture').height;
-        group_1.style.height = background_picture_height + 'px';
+        if (background_picture_height != 0 && background_picture_height > 500) {
+          group_1.style.height = background_picture_height + 'px';
+        }
       };
 
       interactive_img.onmousemove = function (e) {
