@@ -49,7 +49,7 @@
     <div class="quote">
       <div class="author">
         <p>АНДРЕЙ БОГУШ</p>
-        <p style="margin-left: 175px;">ХУДОЖНИК</p>
+        <p style="margin-left: 175px; margin-top: 15px;">ХУДОЖНИК</p>
       </div>
       <div class="quote-text">
         <p>
@@ -71,7 +71,7 @@
       <div class="interview-text">
         <div class="author">
           <p>ТИМА ЛЕО</p>
-          <p style="margin-top: -43px; margin-right: 90px;">make-up artist</p>
+          <p style="margin-top: -30px; margin-right: 90px;">make-up artist</p>
         </div>
         <div class="author-text">
           - Знаешь, я часто не понимаю современное искусство, но стараюсь больше читать на эту тему, вникать в суть. Кстати, в том числе и поэтому проект меня заинтересовал – попытка соприкоснуться с искусством в столь необычных условиях, включив сюда и мою работу, отойти от классической красоты макияжа и попробовать что-то новое. Идея отличная. Ну, и, конечно, мне хотелось еще раз поработать с Эриком. Раньше мы никогда не работали вместе на арт-проектах, только на  коммерческих.
@@ -168,32 +168,32 @@
         var offsetY = e.offsetY,
             offsetX = e.offsetX;
 
-        if (offsetX > 400 && offsetX < 520 && offsetY > 60 && offsetY < 120 ) {
+        if (offsetX > 350 && offsetX < 570 && offsetY > 20 && offsetY < 160 ) {
           $('.figure-4').addClass('zooming');
           // console.log("eyebrow")
         } else { $('.figure-4').removeClass('zooming'); }
 
-        if (offsetX > 500 && offsetX < 660 && offsetY > 220 && offsetY < 370 ) {
+        if (offsetX > 500 && offsetX < 660 && offsetY > 150 && offsetY < 440 ) {
           $('.figure-1').addClass('zooming');
           // console.log("right cheek")
         } else { $('.figure-1').removeClass('zooming'); }
 
-        if (offsetX > 315 && offsetX < 445 && offsetY > 270 && offsetY < 360 ) {
+        if (offsetX > 220 && offsetX < 440 && offsetY > 220 && offsetY < 550 ) {
           $('.figure-6').addClass('zooming');
           // console.log("nose")
         } else { $('.figure-6').removeClass('zooming'); }
 
-        if (offsetX > 500 && offsetX < 580 && offsetY > 530 && offsetY < 590 ) {
+        if (offsetX > 450 && offsetX < 700 && offsetY > 480 && offsetY < 700 ) {
           $('.figure-2').addClass('zooming');
           // console.log("mouth")
         } else { $('.figure-2').removeClass('zooming'); }
 
-        if (offsetX > 440 && offsetX < 530 && offsetY > 760 && offsetY < 830 ) {
+        if (offsetX > 350 && offsetX < 660 && offsetY > 700 && offsetY < 840 ) {
           $('.figure-3').addClass('zooming');
           // console.log("under mouth")
         } else { $('.figure-3').removeClass('zooming'); }
 
-        if (offsetX > 40 && offsetX < 330 && offsetY > 560 && offsetY < 800 ) {
+        if (offsetX > 40 && offsetX < 330 && offsetY > 550 && offsetY < 880 ) {
           $('.figure-5').addClass('zooming');
           // console.log("left cheek")
         } else { $('.figure-5').removeClass('zooming'); }

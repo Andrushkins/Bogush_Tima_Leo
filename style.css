@@ -371,6 +371,11 @@ div[class^='figure'] p{
 
 div[class^='figure'] {
   position: relative;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 .figure-1 {
@@ -416,11 +421,11 @@ div[class^='figure'] {
   height: 65px;
   border: 0;
   background-color: rgba(255,255,255,0.1);
-  background-image:-moz-linear-gradient(left,white,rgba(97,111,117, 0.8),#5E93B7,white);
-  background-image:-webkit-linear-gradient(left,white,rgba(97,111,117, 0.8),#5E93B7,white);
-  background-image:-o-linear-gradient(left,white,rgba(97,111,117, 0.8),#5E93B7,white);
-  background-image:-ms-linear-gradient(left,white,rgba(97,111,117, 0.8),#5E93B7,white);
-  background-image:linear-gradient(left,white,rgba(97,111,117, 0.8),#5E93B7,white);
+  background-image:-moz-linear-gradient(left,white,rgba(70,109,125, 0.9),#5E93B7,white);
+  background-image:-webkit-linear-gradient(left,white,rgba(70,109,125, 0.9),#5E93B7,white);
+  background-image:-o-linear-gradient(left,white,rgba(70,109,125, 0.9),#5E93B7,white);
+  background-image:-ms-linear-gradient(left,white,rgba(70,109,125, 0.9),#5E93B7,white);
+  background-image:linear-gradient(left,white,rgba(70,109,125, 0.9),#5E93B7,white);
   -webkit-box-shadow:  0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
   -moz-box-shadow:     0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
   box-shadow:          0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
@@ -434,11 +439,10 @@ div[class^='figure'] {
   width: 288px;
   height: 65px;
   border: 0;
-  background-image:-moz-linear-gradient(left,rgba(57,126,205,0) 0%,rgba(201,157,147, 1) 45%,rgba(201,157,147, 1) 55%, rgba(57,126,205,0) 100%);
-  background-image:-webkit-linear-gradient(left,rgba(57,126,205,0) 0%,rgba(201,157,147, 1) 45%,rgba(201,157,147, 1) 55%, rgba(57,126,205,0) 100%);
-  background-image:-o-linear-gradient(left,rgba(57,126,205,0) 0%,rgba(201,157,147, 1) 45%,rgba(201,157,147, 1) 55%, rgba(57,126,205,0) 100%);
-  background-image:-ms-linear-gradient(left,rgba(57,126,205,0) 0%,rgba(201,157,147, 1) 45%,rgba(201,157,147, 1) 55%, rgba(57,126,205,0) 100%);
-  background-image:linear-gradient(left,rgba(57,126,205,0) 0%,rgba(201,157,147, 1) 45%,rgba(201,157,147, 1) 55%, rgba(57,126,205,0) 100%);
+  background: -moz-linear-gradient(left, rgba(224,181,168,0) 0%, rgba(224,181,168,0.8) 15%, rgba(224,181,168,1) 19%, rgba(224,181,168,1) 20%, rgba(232,195,188,1) 50%, rgba(224,181,168,1) 80%, rgba(224,181,168,1) 81%, rgba(224,181,168,0.8) 85%, rgba(224,181,168,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(224,181,168,0) 0%,rgba(224,181,168,0.8) 15%,rgba(224,181,168,1) 19%,rgba(224,181,168,1) 20%,rgba(232,195,188,1) 50%,rgba(224,181,168,1) 80%,rgba(224,181,168,1) 81%,rgba(224,181,168,0.8) 85%,rgba(224,181,168,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(224,181,168,0) 0%,rgba(224,181,168,0.8) 15%,rgba(224,181,168,1) 19%,rgba(224,181,168,1) 20%,rgba(232,195,188,1) 50%,rgba(224,181,168,1) 80%,rgba(224,181,168,1) 81%,rgba(224,181,168,0.8) 85%,rgba(224,181,168,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e0b5a8', endColorstr='#00e0b5a8',GradientType=1 ); /* IE6-9 */
   -webkit-box-shadow:  0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
   -moz-box-shadow:     0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
   box-shadow:          0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
@@ -467,10 +471,10 @@ div[class^='figure'] {
   padding-top: 1px;
   width: 173px;
   height: 138px;
-  background: -moz-linear-gradient(left, rgba(224,181,168,0) 0%, rgba(224,181,168,0.8) 15%, rgba(224,181,168,1) 19%, rgba(224,181,168,1) 20%, rgba(232,195,188,1) 50%, rgba(224,181,168,1) 80%, rgba(224,181,168,1) 81%, rgba(224,181,168,0.8) 85%, rgba(224,181,168,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(224,181,168,0) 0%,rgba(224,181,168,0.8) 15%,rgba(224,181,168,1) 19%,rgba(224,181,168,1) 20%,rgba(232,195,188,1) 50%,rgba(224,181,168,1) 80%,rgba(224,181,168,1) 81%,rgba(224,181,168,0.8) 85%,rgba(224,181,168,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(224,181,168,0) 0%,rgba(224,181,168,0.8) 15%,rgba(224,181,168,1) 19%,rgba(224,181,168,1) 20%,rgba(232,195,188,1) 50%,rgba(224,181,168,1) 80%,rgba(224,181,168,1) 81%,rgba(224,181,168,0.8) 85%,rgba(224,181,168,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e0b5a8', endColorstr='#00e0b5a8',GradientType=1 ); /* IE6-9 */
+  background: -moz-linear-gradient(left, rgba(237,136,127,0) 0%, rgba(237,136,127,0.8) 15%, rgba(237,136,127,1) 19%, rgba(237,136,127,1) 20%, rgba(242,154,154,1) 50%, rgba(237,136,127,1) 80%, rgba(237,136,127,1) 81%, rgba(237,136,127,0.8) 85%, rgba(237,136,127,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(237,136,127,0) 0%,rgba(237,136,127,0.8) 15%,rgba(237,136,127,1) 19%,rgba(237,136,127,1) 20%,rgba(242,154,154,1) 50%,rgba(237,136,127,1) 80%,rgba(237,136,127,1) 81%,rgba(237,136,127,0.8) 85%,rgba(237,136,127,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(237,136,127,0) 0%,rgba(237,136,127,0.8) 15%,rgba(237,136,127,1) 19%,rgba(237,136,127,1) 20%,rgba(242,154,154,1) 50%,rgba(237,136,127,1) 80%,rgba(237,136,127,1) 81%,rgba(237,136,127,0.8) 85%,rgba(237,136,127,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ed887f', endColorstr='#00ed887f',GradientType=1 ); /* IE6-9 */
   -webkit-box-shadow:  0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
   -moz-box-shadow:     0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
   box-shadow:          0px 13px 15px -10px #CCC, 0px -13px 15px -10px #CCC;
@@ -478,7 +482,10 @@ div[class^='figure'] {
 
 .zooming {
   z-index: 4;
-  zoom: 1.1;
+  -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .line {
