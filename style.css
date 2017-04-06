@@ -546,6 +546,9 @@ div[class^='figure'] {
     width: 90%;
     margin: 0 auto;
   }
+  .about {
+    margin-top: 50px;
+  }
   .heading-small {
     font-size: 20px;
   }
@@ -559,7 +562,7 @@ div[class^='figure'] {
     width: 260px;
   }
   .group-1 {
-    height: 280px;
+    height: auto;
     padding-top: 0;
   }
   .background-picture {
@@ -679,9 +682,6 @@ div[class^='figure'] {
 @media (max-width: 320px) {
   iframe {
     max-height: 410px;
-  }
-  .group-1 {
-    height: 240px;
   }
   .heading-large {
     font-size: 43px;
