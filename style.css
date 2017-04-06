@@ -602,6 +602,13 @@ div[class^='figure'] {
     padding-bottom: 0;
     margin-top: 20px;
   }
+  .content-text p {
+    font-size: 16px ;
+  }
+  .quote-text {
+    font-size: 24px;
+    line-height: 30px;
+  }
   iframe {
     max-height: 550px;
   }
