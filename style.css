@@ -551,7 +551,8 @@ div[class^='figure'] {
   }
   .heading-large {
     font-size: 43px;
-    margin-bottom: 110px;
+    margin-bottom: 60px;
+    margin-top: 50px;
   }
   .tags {
     font-size: 16px;
@@ -677,7 +678,8 @@ div[class^='figure'] {
   }
   .heading-large {
     font-size: 43px;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
+    margin-top: 20px;
   }
 
 }
