@@ -201,7 +201,7 @@ div[class^='group'], div[class*=' group']{
 
 .videoWrapper {
   max-width: 680px;
-  max-height: 826px;
+  max-height: 952px;
 }
 
 .group-3 {
@@ -360,7 +360,7 @@ div[class^='group'], div[class*=' group']{
 }
 
 .panel {
-  margin-top: 150px;
+  margin-top: 72px;
 }
 
 div[class^='figure'] p{
@@ -488,6 +488,15 @@ div[class^='figure'] {
     -o-transform: scale(1.1);
 }
 
+.alert {
+  font-family: 'Roboto Light', sans-serif; font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .line {
   width: 100%;
   max-width: 350px;
@@ -514,3 +523,128 @@ div[class^='figure'] {
   font-size: 14px;
   margin-top: 30px;
 }
+
+.mobile {
+  display: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  .group-5 .interview-text::before {
+    content: '';
+    width: 470px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    margin-top: 280px;
+  }
+}
+
+@media (max-width: 425px) {
+  .group-1 {
+    height: 300px;
+  }
+  .group-2 {
+    margin-bottom: 30px !important;
+  }
+  .group-3 {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+  }
+  .group-4 {
+    margin-bottom: 30px !important;
+  }
+  .group-5 {
+    margin-bottom: 30px !important;
+  }
+  .group-4 .interview-text::before {
+    display: none;
+  }
+  .group-5 .interview-text::before {
+    display: none;
+  }
+  .social {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  .content-block {
+    display: block;
+  }
+  .content-img {
+    width: 100%;
+  }
+  .content-text {
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+  }
+  iframe {
+    max-height: 550px;
+  }
+  .quote {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .quote p {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+  .quote::before {
+    display: none;
+  }
+  .quote-text {
+    margin-top: 10px;
+  }
+  .quote-text p br {
+    display: none;
+  }
+  .interview-text {
+    width: 100%;
+    border: none;
+    text-align: left;
+  }
+  .author p {
+    margin: 0 !important;
+  }
+  .author-text {
+    margin-bottom: 20px;
+  }
+  .group-5 .content-img {
+    width: 100%;
+  }
+  .credits {
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .group-5 .interview-text {
+    width: 100%;
+    border: none;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .group-5 .quote-text {
+    margin-bottom: 20px;
+  }
+  .group-5 .author-text {
+    margin-bottom: 0;
+  }
+  .alert, .interactive .line, .panel {
+    display: none;
+  }
+  .creditors {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+/*END MEDIA QUERIES*/
